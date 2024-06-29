@@ -1,0 +1,52 @@
+body{
+	/*background-color: #e5e8ef;
+	background-color:#e4ebf2;*/
+	/*background-color:#c7ceda;*/
+	background-color:#d2d8e2;
+
+}
+.container{
+	width: 60%;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+	 border-radius: 40px;
+	 background-color: white;
+	/*padding: 35px;*/
+	/*margin-bottom: 40%;*/
+}
+.login{
+	/*padding: 40px;*/
+	padding: 60px 40px 0px 55px;
+}
+
+.signup{
+	/*padding: 40px;*/
+	padding: 30px 40px 0px 55px;
+}
+
+button{
+	width: 42%;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.sign_up{
+	/*background-color: black;*/
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.login_user{
+	/*background-color: black;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-weight: 700;
+	color: #545b62;
+}
+
