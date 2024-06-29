@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Mar 2023 pada 12.53
+-- Waktu pembuatan: 26 Bulan Mei 2023 pada 10.36
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 7.4.33
 
@@ -275,6 +275,7 @@ CREATE TABLE `hasil_prediksi` (
   `bobot_2` int(11) DEFAULT NULL,
   `bobot_3` int(11) DEFAULT NULL,
   `bobot_4` int(11) DEFAULT NULL,
+  `bobot_5` int(11) DEFAULT NULL,
   `data_aktual` float NOT NULL,
   `hasil_wma` float DEFAULT NULL,
   `hasil_eoq` float DEFAULT NULL,
@@ -713,7 +714,7 @@ INSERT INTO `tbl_pembelian_barang` (`id_pembelian`, `id_supplier`, `id_barang`, 
 (346, 11, 15, 10, '2021-08-11'),
 (347, 11, 15, 10, '2021-08-16'),
 (348, 11, 15, 8, '2021-08-25'),
-(349, 11, 15, 10, '2021-09-03'),
+(349, 11, 15, 10, '2023-09-03'),
 (350, 11, 15, 10, '2021-09-14'),
 (351, 11, 15, 5, '2021-09-27'),
 (352, 11, 15, 10, '2021-10-08'),
@@ -1049,7 +1050,7 @@ CREATE TABLE `tbl_user` (
 
 INSERT INTO `tbl_user` (`id_user`, `username`, `password`, `role`, `status`) VALUES
 (1, 'admin', '$2y$10$5PG6a.exVg8/gyQ47rbXLORsgjwS.D7ujA8uvZBAVEUuERA3gybfO', 'Admin', 'Aktif'),
-(2, 'davila', '$2y$10$mtbEpgUzygz/4ICGH/.g1OLsN4b/gtlPOG/NHsAyLi.RYLYfDb5sG', 'Admin', 'Aktif');
+(2, 'mariah', '$2y$10$5BwY0KeQ68KlHzQRLTv8DO13jIWII.AVMlvmGo6DcmVTIs.3NCDJi', 'Pemilik', 'Aktif');
 
 --
 -- Indexes for dumped tables

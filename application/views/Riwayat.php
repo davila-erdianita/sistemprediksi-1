@@ -145,7 +145,7 @@
 						      <td><?= $data['bobot_2'];?></td>
 						      <td><?= $data['bobot_3'];?></td>
 						      <td><?= $data['bobot_4'];?></td>
-						      <?php if($data['bobot_5'] != NULL){?>
+						      <?php if(isset($data['bobot_5'])){?>
 						      <td><?= $data['bobot_5'];?></td>
 						      <?php }else{ ?>
 						      <td>-</td>
